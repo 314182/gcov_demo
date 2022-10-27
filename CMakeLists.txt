@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.6)
+project(gcov_Demo)
+set(CMAKE_CXX_FLAGS " ${CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage")
+set(CMAKE_CXX_STANDARD 17)
+add_executable(code_coverage src/Taxi.cpp src/Vehicle.cpp src/Truck.cpp inc/Taxi.h inc/Truck.h inc/Vehicle.h main.cpp)

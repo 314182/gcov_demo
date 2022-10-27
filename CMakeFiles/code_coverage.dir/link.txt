@@ -1,0 +1,1 @@
+/usr/bin/c++    -fprofile-arcs -ftest-coverage  -rdynamic CMakeFiles/code_coverage.dir/src/Taxi.cpp.o CMakeFiles/code_coverage.dir/src/Vehicle.cpp.o CMakeFiles/code_coverage.dir/src/Truck.cpp.o CMakeFiles/code_coverage.dir/main.cpp.o  -o code_coverage 
