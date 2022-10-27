@@ -1,3 +1,0 @@
-/home/rohithmg/Projects/gcov_demo/CMakeFiles/rebuild_cache.dir
-/home/rohithmg/Projects/gcov_demo/CMakeFiles/edit_cache.dir
-/home/rohithmg/Projects/gcov_demo/CMakeFiles/code_coverage.dir
