@@ -26,7 +26,7 @@ pipeline{
       steps{
         sh 'gcovr --html > coverage.html'
         sh 'gcovr --sonarqube > coverage.xml'
-        junit *.xml
+        junit '*.xml'
       }
     }
   }
