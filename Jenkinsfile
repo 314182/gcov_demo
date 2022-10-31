@@ -20,8 +20,12 @@ pipeline{
     stage('Coverage'){
       steps{
         sh 'gcovr'
+      }
+    }
+    stage('Reports'){
         sh 'gcovr --html > coverage.html'
         sh 'gcovr --sonarqube > coverage.xml'
+        junit *.xml
       }
     }
   }
